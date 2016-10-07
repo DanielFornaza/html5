@@ -1,0 +1,56 @@
+*{
+	margin:0 ; /*zera as configuraçao da pagina onde vc pode formata do seu jeito*/
+	padding:0;
+}
+body{
+	margin:0 auto;
+	width:940px;
+	font-size:13px;
+	font-family:verdana;
+}
+
+header ,nav{
+	display:block;
+}
+article{clear:both;
+	margin-top:50px;
+	text-align:justify;
+
+	
+}
+h1{
+	text-align:center;
+}
+nav ul{/*so editar oque tiver dentro nav so edita (ul)*/
+	list-style-type:none;
+}
+
+nav ul li{/*so editar oque tiver dentro nav so edita( ul li)*/
+	/*ul tem que flutuar a esquerda*/
+	float:left;
+}
+nav ul li a{
+	display:block;
+	height:25px;/*Altura*/
+	padding:0 30px;/*Espaçameto*//*Flutuar esquerda*/
+    font-size:14px; /*almentar fonte das letras*/
+    line-height:30px;/*Altura das linhas*/
+    text-align:center;/*Alinhamento do texto*/
+    text-decoration:none;/*Retirar sublinhado dos LINKS*/
+    color:#000000;/*Cor do texto*/
+    font-weight:bold; /*Negrito na fonte*/
+}
+nav ul li a:hover{/*Passar p Mouser em cima do li A*/
+	color:#F71111;
+
+}
+nav ul li a.Selecionado{
+	color:#F6F6F6;
+	background-color:#0E5CEC;
+	margin-left:10px;
+	height:30px;
+	line-height:30px;
+	margin-top:2px; 
+}
+
+
