@@ -1,0 +1,35 @@
+*{/**/
+	margin:0;/*Limpar as Margens*/
+	padding:0; /*Espasamento limpo*/
+}
+header{
+	height:100px;
+	background-color:#8F0CBF;
+	width:100%;
+}
+
+nav{
+	height:400px;
+	background-color:#FF0303;
+	width:20%;
+	float:left;
+}
+
+article{
+	height:400px;
+	background-color:#37338E;
+	width:60%;
+	float:left;/*Flutuar a esquerda*/
+}
+aside{
+	height:400px;
+	background-color:#0BE452;
+	width:20%;
+	float:right;/*Flutuar a Direita*/
+}
+footer{
+	height:400px;
+	background-color:#FAF703;
+	width:100%;
+	clear:both;
+}
